@@ -10,6 +10,7 @@ body {
     height: 5vh; /* Full viewport height */
     overflow: hidden; /* Prevent scrolling */
     background: url(./sino.jpeg) no-repeat center center/cover;
+    /* margin: 2rem; */
 }
 
 .envelope-wrapper {
@@ -239,6 +240,7 @@ body {
 @media (max-width: 600px) {
 
     body {
+        width: 10%;
         height: 100vh;
         background: url(./bg.jpeg) no-repeat center center/cover;
     }
